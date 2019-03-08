@@ -22,9 +22,11 @@ GameObject:
   - component: {fileID: 33181604691608762}
   - component: {fileID: 23823556563847368}
   - component: {fileID: 65092383399986218}
+  - component: {fileID: 114543661814468646}
+  - component: {fileID: 114449602983690002}
   m_Layer: 0
   m_Name: BreakCubePrefab
-  m_TagString: Untagged
+  m_TagString: Break
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1588760651021562}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.07, y: 0.5235533, z: 11.23}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
@@ -96,3 +98,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114449602983690002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588760651021562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea8a5b5596015d4ab1a9e8b686cb4de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Item_bomb: {fileID: 1484477818386058, guid: e14acb78c4d1e0c4ea1b24a1b04e8143, type: 2}
+  Item_Burst: {fileID: 1484166321355276, guid: a6816d0da26510c40a51c83b7f2e180a, type: 2}
+--- !u!114 &114543661814468646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1588760651021562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b9f7b80b76f3248b871ce27cae7eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

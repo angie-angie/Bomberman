@@ -51,7 +51,7 @@ public class CreateCube : MonoBehaviour {
                 //配列から取り出した１要素には111011011011011011こんな値が入っているのでこれを１文字づつ取り出す
                 int obj = int.Parse(x_map.Substring(z, 1));
 
-                //もしも０だったら壁ということで壁のプレハブをインスタンス化してループして出したx座標z座標を指定して設置
+                //もしも0だったら壁ということで壁のプレハブをインスタンス化してループして出したx座標z座標を指定して設置
                 if (obj == 0)
                 {
                     Instantiate(CubePrefab, new Vector3(x + 1, 0, z + 1), Quaternion.identity);
