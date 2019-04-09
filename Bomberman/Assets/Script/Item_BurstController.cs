@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class Item_BurstController : MonoBehaviour {
 
-    BombController bombCon;
+    GameController gameCon;
     public AudioClip powerup;
 
     void Start () {
-        bombCon = GameObject.Find("BombController").GetComponent<BombController>();
+        gameCon = GameObject.Find("GameController").GetComponent<GameController>();
     }
 
     void Update () {
@@ -21,7 +21,7 @@ public class Item_BurstController : MonoBehaviour {
         {
             AudioSource.PlayClipAtPoint(powerup, transform.position);
             Destroy(gameObject);
-            bombCon.GetItem_burst();
+            gameCon.GetItem_burst();
         }
     }
 }

@@ -23,8 +23,8 @@ GameObject:
   - component: {fileID: 199252860770633694}
   - component: {fileID: 65742855808047076}
   - component: {fileID: 54516324750530614}
-  - component: {fileID: 114536338979338054}
-  m_Layer: 0
+  - component: {fileID: 114106426116583148}
+  m_Layer: 12
   m_Name: FireboltParticle (1)
   m_TagString: Burst
   m_Icon: {fileID: 0}
@@ -43,8 +43,8 @@ GameObject:
   - component: {fileID: 199574872055284630}
   - component: {fileID: 65689018147103470}
   - component: {fileID: 54140054874118214}
-  - component: {fileID: 114083531340733896}
-  m_Layer: 0
+  - component: {fileID: 114926842362498390}
+  m_Layer: 12
   m_Name: FireboltParticle (2)
   m_TagString: Burst
   m_Icon: {fileID: 0}
@@ -59,7 +59,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4857063641122794}
-  m_Layer: 0
+  - component: {fileID: 114076580769045822}
+  m_Layer: 12
   m_Name: BigBurst22
   m_TagString: Burst
   m_Icon: {fileID: 0}
@@ -78,8 +79,8 @@ GameObject:
   - component: {fileID: 199401898301726488}
   - component: {fileID: 65883113141942082}
   - component: {fileID: 54187818853518144}
-  - component: {fileID: 114945150957339792}
-  m_Layer: 0
+  - component: {fileID: 114212917191133506}
+  m_Layer: 12
   m_Name: FireboltParticle
   m_TagString: Burst
   m_Icon: {fileID: 0}
@@ -106,7 +107,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1001072839732962}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalPosition: {x: 0, y: 1.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4857063641122794}
@@ -119,7 +120,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1406267260675220}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 2.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4857063641122794}
@@ -154,7 +155,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 1
 --- !u!54 &54187818853518144
 Rigidbody:
@@ -169,7 +170,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 1
 --- !u!54 &54516324750530614
 Rigidbody:
@@ -184,7 +185,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 116
   m_CollisionDetection: 1
 --- !u!65 &65689018147103470
 BoxCollider:
@@ -206,7 +207,7 @@ BoxCollider:
   m_GameObject: {fileID: 1001072839732962}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0.5, z: 0}
@@ -222,18 +223,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &114083531340733896
+--- !u!114 &114076580769045822
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1406267260675220}
+  m_GameObject: {fileID: 1707714687062788}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb9dc192671807e44847f96e8233d15d, type: 3}
+  m_Script: {fileID: 11500000, guid: 2022a995bdf67e941982a7f5b5dce767, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114536338979338054
+--- !u!114 &114106426116583148
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -244,12 +245,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb9dc192671807e44847f96e8233d15d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114945150957339792
+--- !u!114 &114212917191133506
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1962961595763336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb9dc192671807e44847f96e8233d15d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114926842362498390
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406267260675220}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb9dc192671807e44847f96e8233d15d, type: 3}
@@ -334,7 +346,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5013,7 +5025,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -9692,7 +9704,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2

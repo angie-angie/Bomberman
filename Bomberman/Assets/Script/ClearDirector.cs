@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 public class ClearDirector : MonoBehaviour
 {
 
-    void Update()
+    public void GameStart()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {
-            SceneManager.LoadScene("GameScene");
-        }
+        SceneManager.LoadScene("GameScene");
+    }
+
+    public void StartScene()
+    {
+        SceneManager.LoadScene("StartScene");
     }
 
 }

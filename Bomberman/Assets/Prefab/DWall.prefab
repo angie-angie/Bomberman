@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23633528960050474}
   - component: {fileID: 65812232934657750}
   - component: {fileID: 114313648447549430}
+  - component: {fileID: 114714843640282632}
   m_Layer: 0
   m_Name: DWall
   m_TagString: DWall
@@ -106,5 +107,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 39b9f7b80b76f3248b871ce27cae7eb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114714843640282632
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1095130097489312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496fa9669f231a34e842e5724eb1206d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

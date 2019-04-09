@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MapGenerator : MonoBehaviour{
-    //11
+    
     public GameObject defaultWallPrefab;
     private int default_x_max = 20;
     private int default_z_max = 20;

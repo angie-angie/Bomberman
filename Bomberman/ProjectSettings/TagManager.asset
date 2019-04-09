@@ -11,6 +11,8 @@ TagManager:
   - Cube
   - Item_bomb
   - Item_Burst
+  - Bomb
+  - ClearDoor
   layers:
   - Default
   - TransparentFX
@@ -23,8 +25,8 @@ TagManager:
   - PostProcessing
   - Bomb
   - Player
-  - 
-  - 
+  - explosion
+  - Burst
   - 
   - 
   - 

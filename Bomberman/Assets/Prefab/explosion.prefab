@@ -21,10 +21,10 @@ GameObject:
   - component: {fileID: 4021254970048190}
   - component: {fileID: 198078236776783244}
   - component: {fileID: 199341171767971022}
-  - component: {fileID: 65710073642799632}
-  - component: {fileID: 54498625539605282}
-  - component: {fileID: 114429063576243618}
-  m_Layer: 0
+  - component: {fileID: 65296293652666700}
+  - component: {fileID: 54861041018040548}
+  - component: {fileID: 114796593263109794}
+  m_Layer: 11
   m_Name: FireboltParticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -39,7 +39,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4714197640343746}
-  m_Layer: 0
+  - component: {fileID: 114038721592212412}
+  m_Layer: 11
   m_Name: explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +74,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &54498625539605282
+--- !u!54 &54861041018040548
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,8 +88,8 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 1
---- !u!65 &65710073642799632
+  m_CollisionDetection: 0
+--- !u!65 &65296293652666700
 BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -96,11 +97,22 @@ BoxCollider:
   m_GameObject: {fileID: 1182698322944542}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
+  m_Size: {x: 0.8, y: 0.8, z: 0.8}
   m_Center: {x: 0, y: 0.5, z: 0}
---- !u!114 &114429063576243618
+--- !u!114 &114038721592212412
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1801697587358266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2022a995bdf67e941982a7f5b5dce767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114796593263109794
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

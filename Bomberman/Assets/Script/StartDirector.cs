@@ -6,11 +6,8 @@ using UnityEngine.SceneManagement;
 public class StartDirector : MonoBehaviour
 {
 
-    void Update()
+    public void GameStart()
     {
-        if (Input.GetKey(KeyCode.Space))
-        {
             SceneManager.LoadScene("GameScene");
-        }
     }
 }

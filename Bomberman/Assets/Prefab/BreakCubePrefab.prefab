@@ -111,6 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Item_bomb: {fileID: 1484477818386058, guid: e14acb78c4d1e0c4ea1b24a1b04e8143, type: 2}
   Item_Burst: {fileID: 1484166321355276, guid: a6816d0da26510c40a51c83b7f2e180a, type: 2}
+  Clear_Door: {fileID: 1588288154010578, guid: e4231b3c17e307e4290773a8830569f1, type: 2}
+  door: 0
 --- !u!114 &114543661814468646
 MonoBehaviour:
   m_ObjectHideFlags: 1

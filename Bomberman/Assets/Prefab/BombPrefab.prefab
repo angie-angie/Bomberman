@@ -59,7 +59,7 @@ GameObject:
   - component: {fileID: 114352608400879828}
   m_Layer: 9
   m_Name: BombPrefab
-  m_TagString: Untagged
+  m_TagString: Bomb
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88,7 +88,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1257504093296248}
   m_LocalRotation: {x: 0.67615694, y: 0.005885236, z: 0.005885236, w: 0.7367107}
-  m_LocalPosition: {x: 10.8, y: 1, z: 17.46}
+  m_LocalPosition: {x: 10, y: 0, z: 21.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4536849671983496}
@@ -288,19 +288,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cde0342b709f4174b8f997122fd3b9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Burst11: {fileID: 0}
-  Burst22: {fileID: 0}
-  BigBurst11: {fileID: 0}
-  BigBurst22: {fileID: 0}
-  BigBurst33: {fileID: 0}
-  BigBurst44: {fileID: 0}
-  BurstSpawn1: {fileID: 0}
-  BurstSpawn2: {fileID: 0}
-  BurstSpawn3: {fileID: 0}
-  BurstSpawn4: {fileID: 0}
-  explosion1: {fileID: 0}
-  explosion2: {fileID: 0}
+  clone: {fileID: 0}
+  clone1: {fileID: 0}
+  clone2: {fileID: 0}
+  clone3: {fileID: 0}
+  clone4: {fileID: 0}
+  BomBall: {fileID: 1596117791988682}
+  BombWick: {fileID: 1001265206445726}
+  explosion: {fileID: 1801697587358266, guid: 64cb58ae05ef77140ba385080dafdc08, type: 2}
+  Burst11: {fileID: 1135034883352322, guid: fd88c6ba6bf75d1419bc17f0e12c5675, type: 2}
+  Burst22: {fileID: 1089330776213616, guid: 101641c7fdec1a24fabc50b382102b1c, type: 2}
+  BigBurst11: {fileID: 1548567666439810, guid: dba8cfa9711aee543981ff870605f7e6, type: 2}
+  BigBurst22: {fileID: 1707714687062788, guid: b8b6fcfbb28f8e04093002159a98f1a6, type: 2}
+  BigBurst33: {fileID: 1147055984051696, guid: 1e3985963ab67554b9b519b6c4f45d35, type: 2}
+  BigBurst44: {fileID: 1210568410127248, guid: 6cb4d983287dd194883e336ad56fd2fa, type: 2}
+  explosion1: {fileID: 8300000, guid: 31dbe1f047a081845bd95a5b256ee829, type: 3}
+  explosion2: {fileID: 8300000, guid: 0dcfe736485e63542b5036dc5b360032, type: 3}
   WideRange: 0
+  pos: {x: 0, y: 0, z: 0}
+  is_hit1: 0
+  is_hit2: 0
+  is_hit3: 0
+  is_hit4: 0
 --- !u!114 &114352608400879828
 MonoBehaviour:
   m_ObjectHideFlags: 1
